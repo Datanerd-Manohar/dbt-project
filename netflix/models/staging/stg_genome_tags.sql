@@ -1,0 +1,1 @@
+select tagId as tag_id, tag from netflix.raw.raw_genome_tags

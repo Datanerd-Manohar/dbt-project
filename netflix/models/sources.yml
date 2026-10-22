@@ -1,0 +1,25 @@
+sources: 
+  - name: netflix
+    schema: raw
+    tables:
+    - name: stg_movies
+      identifier: stg_movies
+      description: "Raw movies table which contains columns such as movied_id, title, genres "
+    - name: stg_genome_scores
+      identifier: stg_genome_scores
+      description: "Raw genome scores table which consists columns such as movie_id, tag_id, relevance"
+    - name: stg_genome_tags
+      identifier: stg_genome_tags
+      description: "Raw tag table which contains columns such as tag and tag_id"
+    - name: stg_links
+      identifier: stg_links 
+      description: "Raw table with individual ratings from different rating critics"
+    - name: stg_ratings
+      identifier: stg_ratings
+      description: "Raw table with overall rating and contains movied_id, rating, timestamp and user_id columns"
+    - name: stg_tags
+      identifier: stg_tag
+      description: "Contains column like movie_id, tag, timestamp, user_id"
+    
+
+    
